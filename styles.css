@@ -1,0 +1,304 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+main{
+
+    align-self:center;
+    justify-self:center;
+    height: 50vh;
+    width:30vw;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    grid-template-areas:
+    "_screen _screen _screen _screen"
+    "_C _C _back _div"
+    "_7 _8 _9 _x"
+    "_4 _5 _6 _min"
+    "_1 _2 _3 _max"
+    "_0 _0 _0 _equal";
+}
+
+
+.N1 {
+    background: lightcoral;
+    grid-area:_1;
+}
+
+.N2 {
+    background: lightcoral;
+    grid-area:_2;
+}
+
+.N3 {
+    background: lightcoral;
+    grid-area:_3;
+}
+
+.N4 {
+    background: lightcoral;
+    grid-area:_4;
+}
+
+.N5 {
+    background: lightcoral;
+    grid-area:_5;
+}
+
+.N6 {
+    background: lightcoral;
+    grid-area:_6;
+}
+
+.N7 {
+    background: lightcoral;
+    grid-area:_7;
+}
+
+.N8 {
+    background: lightcoral;
+    grid-area:_8;
+}
+
+.N9 {
+    background: lightcoral;
+    grid-area: _9;
+}
+
+.N0 {
+    background: lightcoral;
+    grid-area:_0;
+}
+
+.N1:hover{
+    background: rgb(243, 147, 147);
+}
+
+.N1:active{
+    background: rgb(177, 101, 101);
+}
+
+.N2:hover{
+    background: rgb(243, 147, 147);
+}
+
+.N2:active{
+    background: rgb(177, 101, 101);
+}
+
+.N3:hover{
+    background: rgb(243, 147, 147);
+}
+
+.N3:active{
+    background: rgb(177, 101, 101);
+}
+
+.N4:hover{
+    background: rgb(243, 147, 147);
+}
+
+.N4:active{
+    background: rgb(177, 101, 101);
+}
+
+.N5:hover{
+    background: rgb(243, 147, 147);
+}
+
+.N5:active{
+    background: rgb(177, 101, 101);
+}
+
+.N6:hover{
+    background: rgb(243, 147, 147);
+}
+
+.N6:active{
+    background: rgb(177, 101, 101);
+}
+
+.N7:hover{
+    background: rgb(243, 147, 147);
+}
+
+.N7:active{
+    background: rgb(177, 101, 101);
+}
+
+.N8:hover{
+    background: rgb(243, 147, 147);
+}
+
+.N8:active{
+    background: rgb(177, 101, 101);
+}
+
+.N9:hover{
+    background: rgb(243, 147, 147);
+}
+
+.N9:active{
+    background: rgb(177, 101, 101);
+}
+
+.N0:hover{
+    background: rgb(243, 147, 147);
+}
+
+.N0:active{
+    background: rgb(177, 101, 101);
+}
+
+.Nback {
+    background: lightcoral;
+    grid-area:_back;
+
+    text-align: center;
+
+    border-style:solid;
+    border-width: 5px;
+}
+
+.NC{
+    background: lightcoral;
+    grid-area:_C;
+
+    text-align: center;
+
+    border-style:solid;
+    border-width: 5px;
+}
+
+.Nback:hover{
+    background: rgb(243, 147, 147);
+}
+
+.Nback:active{
+    background: rgb(177, 101, 101);
+}
+
+.NC:hover{
+    background: rgb(243, 147, 147);
+}
+
+.NC:active{
+    background: rgb(177, 101, 101);
+}
+
+.Nmin {
+    background: lightblue;
+    grid-area:_min;
+
+    text-align: center;
+
+    border-style:solid;
+    border-width: 5px;
+}
+
+.Nmax {
+    background: lightblue;
+    grid-area:_max;
+    text-align: center;
+
+    border-style:solid;
+    border-width: 5px;
+}
+
+.Nequal {
+    background: lightblue;
+    grid-area:_equal;
+    text-align: center;
+
+    border-style:solid;
+    border-width: 5px;
+}
+
+.Nx {
+    background: lightblue;
+    grid-area:_x;
+    text-align: center;
+
+    border-style:solid;
+    border-width: 5px;
+}
+
+.Ndiv{
+    background: lightblue;
+    grid-area:_div;
+    text-align: center;
+
+    border-style:solid;
+    border-width: 5px;
+}
+
+.Nmin:hover{
+    background: rgb(193, 227, 238);
+}
+
+.Nmin:active{
+    background: rgb(128, 182, 201);
+}
+
+.Nmax:hover{
+    background: rgb(193, 227, 238);
+}
+
+.Nmax:active{
+    background: rgb(128, 182, 201);
+}
+
+.Nequal:hover{
+    background: rgb(193, 227, 238);
+}
+
+.Nequal:active{
+    background: rgb(128, 182, 201);
+}
+
+.Nx:hover{
+    background: rgb(193, 227, 238);
+}
+
+.Nx:active{
+    background: rgb(128, 182, 201);
+}
+
+.Ndiv:hover{
+    background: rgb(193, 227, 238);
+}
+
+.Ndiv:active{
+    background: rgb(128, 182, 201);
+}
+
+
+.screen{
+    background: black;
+    grid-area:_screen;
+
+    border-style:solid;
+    border-width: 5px;
+    border-color:black;
+    color:white;
+
+    font-size: 30px;
+    text-align: end;
+    /* text-justify: center; */
+    justify-content: center;
+    padding-top: 10px;
+    padding-right:25px;
+}
+
+.identifyElement{
+    font-size: 30px;
+    cursor:pointer;
+    text-align: center;
+
+    border-style:solid;
+    border-radius: 5px;
+}
